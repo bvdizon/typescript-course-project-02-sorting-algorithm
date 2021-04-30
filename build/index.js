@@ -18,3 +18,4 @@ linkedList.add(4);
 var sorter = new Sorter_1.Sorter(linkedList);
 sorter.sort();
 linkedList.print();
+// discussion only - 21. Abstract Classes

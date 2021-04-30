@@ -22,3 +22,5 @@ linkedList.add(4);
 const sorter = new Sorter(linkedList);
 sorter.sort();
 linkedList.print();
+
+// discussion only - 21. Abstract Classes
