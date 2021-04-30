@@ -6,7 +6,6 @@ var Sorter = /** @class */ (function () {
         this.collection = collection;
     }
     Sorter.prototype.sort = function () {
-        // alternative: const lenght = this.collection.length
         var length = this.collection.length;
         for (var i = 0; i < length; i++) {
             for (var j = 0; j < length - i - 1; j++) {
