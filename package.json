@@ -1,0 +1,18 @@
+{
+  "name": "typescript-course-project-02-sorting-algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:watch": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "Brian Dizon",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "nodemon": "^2.0.7"
+  }
+}
