@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var LinkedList_1 = require("./LinkedList");
-var Sorter_1 = require("./Sorter");
 // const numbersCollection = new NumbersCollection([10, -5, 18, 3]);
 // const sorter = new Sorter(numbersCollection);
 // sorter.sort();
@@ -15,7 +14,3 @@ linkedList.add(500);
 linkedList.add(-10);
 linkedList.add(-3);
 linkedList.add(4);
-var sorter = new Sorter_1.Sorter(linkedList);
-sorter.sort();
-linkedList.print();
-// discussion only - 21. Abstract Classes

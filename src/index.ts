@@ -18,9 +18,3 @@ linkedList.add(500);
 linkedList.add(-10);
 linkedList.add(-3);
 linkedList.add(4);
-
-const sorter = new Sorter(linkedList);
-sorter.sort();
-linkedList.print();
-
-// discussion only - 21. Abstract Classes
